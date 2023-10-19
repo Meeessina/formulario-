@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="img/GUIA-INTRODUÇÃO-PROGRAMAÇÃO.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+   
+        <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario atividade</title>
+</head>
+    <body>
+        <h1>
+            Formulario de interação
+        </h1>
+        <form action="https://formspree.io/f/xwkdazby" method="post">
+            <label for="nome">Digite o seu nome</label>
+            <input type="text" placeholder="Digite aqui" id="nome" required>
+            <br><br>
+            <label for="endereço">Digite o seu endereço</label>
+            <input type="text" value="Rua e nr" name="Rua e nr" id="endereço" contenteditable="true" required>
+            <br><br>
+            <label for="Bairro">Digite o Bairro</label>
+            <input type="text" value="Bairro" name="Bairro" id="Bairro" contenteditable="true" required>
+            <br><br>
+            <label for="Cidade">Digite a cidade</label>
+            <input type="text" name="Santo André" value="Santo André" id="Cidade" required>
+            <br><br>
+            
+            <label for="textoarea">Entre com a sua mensagem </label>
+            <br>
+            <textarea maxlength="500" placeholder="Digite até 500 caracteres" name="textoarea" id="textoarea" cols="80" rows="10" required></textarea>
+            <br><br>
+            <label for="Trabalhos">Escolha o(s) modelo(s) de trabalho</label>
+            <br><br>
+            <ul>
+                <li><input type="radio" name="Trabalhos" id="Trabalhos" value="Trabalhos" required> Presencial</li>
+        
+                <br>
+                <li><input type="radio" name="Trabalhos" id="remoto" value="Remoto" required>Remoto</li>
+            
+                <br>
+                <li><input type="radio" name="Trabalhos" id="Hibrido" value="Hibrido" required>Hibrído</li>
+            </ul>
+            <br><br>
+            <label for="Periodo">Escolha o periodo de trabalho</label>
+            <br>
+            <br>
+            <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Periodo" id="Periodo" > Manhã
+            </li>
+                <br>
+            <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Periodo" id="periodo" >Tarde
+            </li>
+                <br>
+            <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Periodo" id="periodo" >Noite
+            </li>
+                <br><br>
+                <label for="Estados">Escolha um Estado</label>
+            
+            <br>
+            <input list="Estados" name="Estado" value="Espirito Santo" required> 
+            <datalist id="Estados">
+                <option value="São Paulo"></option>
+                <option value="Espirito Santo"></option>
+                <option value="Amazonas"></option>
+                <option value="Pará"></option>
+                <option value="Mato Grosso"></option>
+                <option value="Minas Gerais"></option>
+                <option value="Bahia"></option>
+                <option value="Mato Grosso do Sul"></option>
+                <option value="Goiás"></option>
+                <option value=""></option>
+                <option value="Maranhão"></option>
+                <option value=""></option>
+                <option value="Rio Grande do Sul"></option>
+                <option value="Tocantins"></option>
+                <option value="Piauí"></option>
+                <option value="Rondônia"></option>
+                <option value="Roraima"></option>
+                <option value="Paraná"></option>
+                <option value="Acre"></option>
+                <option value="Ceará"></option>
+                <option value="Pernambuco"></option>
+                <option value="Amapá"></option>
+                <option value="Santa Catarina"></option>
+                <option value="Paraíba"></option>
+                <option value="Rio Grande do Norte"></option>
+                <option value="Rio de Janeiro"></option>
+                <option value=" Alagoas"></option>
+                <option value=" Sergipe"></option>
+                <option value=" Distrito Federal"></option>
+                
+            
+            </datalist>
+            <br><br>
+            <input type="checkbox" required> Aceita os termos de uso do site
+            <br><br>
+            <input type="submit" value="Enviar dados" >
+            <input type="reset" value="Limpar os campos">
+        </form>
+
+    
+
+        
+        
+    
+    
+</html>
+    
+    </body>
+</html>
